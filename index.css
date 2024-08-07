@@ -1,0 +1,63 @@
+/* UNIVERSAL */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* FONT */
+@font-face{
+  font-family: Vogue;
+  src: url(../font/vogue.ttf);
+}
+@font-face{
+  font-family: zh;
+  src: url(../font/zh.ttf);
+}
+body{
+  background-color: floralwhite;
+}
+/* NAVBAR */
+.navs{
+  display: flex;
+  justify-content: end;
+  list-style: none;
+  background-color: #bfe7f4;
+  font-family: Vogue;
+}
+li{
+  margin-right: 5px;
+  padding: 8px;
+}
+/* TITLE WEB */
+.titleApp{
+  margin: 50px;
+  text-align: center;
+  font-family: Vogue;
+}
+.namaHeader{
+  margin-left: 10px;
+  font-family: Vogue;
+}
+/* BAGIAN BERITA */
+.beritaSatu{
+  display: flex;
+  margin: 5px 5px 0px 5px;
+  padding: 5px;
+  background-color: beige;
+  border-radius: 5px;
+  box-shadow: 1px 1px black;
+  font-family: zh;
+}
+img{
+  width: 150px;
+  border-radius: 5px;
+}
+.descBerita{
+  flex-direction: column;
+  margin-left: 5px;
+}
+.textDesc{
+  font-size: 11px;
+  text-decoration: none;
+  color: black;
+}
